@@ -1,11 +1,10 @@
 
 public class Bins {
     private int[] bin;
-    private int minBin, maxBin;
+    private int minBin;
     public Bins(int min, int max){
         minBin=min;
-        maxBin=max;
-        bin=new int[max-min];
+        bin=new int[max-min+1];
     }
     public void incrementBin(int number){
         bin[number-minBin]++;

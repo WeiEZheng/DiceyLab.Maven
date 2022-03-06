@@ -1,8 +1,8 @@
 
 public class Dice {
     private int numberOfDie;
-    public Dice (int numberOfDie){
-        this.numberOfDie=numberOfDie;
+    public Dice (int numberOfDice){
+        this.numberOfDie=numberOfDice;
     }
     public int tossAndSum(){
         int sum=0;
